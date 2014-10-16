@@ -2,18 +2,20 @@
     <head>
         <style>
 
+
             body{
                 font-family: sans-serif;
                 margin: 0;
             }
 
-            #navbar{
+            #top-navbar {
                 background-color: lightgrey;
                 /*height: 30px;*/
                 text-align: right;
             }
 
-            .navbar-links {
+            /*.navbar-links {*/
+            .navbar div {
                 color: green;
                 display: inline-block;
                 margin: 10px;
@@ -22,20 +24,17 @@
             #header{
                 background-color: lightgrey;
                 height: 150px;
+                text-align: center;
             }
 
-            #header h1{
+            #header h1 {
                 color: #F2875C;
-                text-align: center;
                 font-size: 70px;
                 margin: 0;
             }
 
-            #header p {
-                text-align: center;
-            }
 
-            #image {
+            #logo-image {
                 text-align: center;
                 margin: auto;
                 margin-top: 50px;
@@ -46,7 +45,7 @@
                 margin-top: 50px;
             }
 
-            .text-block{
+            .text-block {
                 display: inline-block;
                 width: 500px;
                 text-align: left;
@@ -63,18 +62,19 @@
             }
 
         </style>
+        <title>Page</title>
     </head>
     <body>
-        <div id="navbar">
-            <div class="navbar-links">Home</div>
-            <div class="navbar-links">Melon Encyclopedia</div>
-            <div class="navbar-links">Melon Info</div>
+        <div class="navbar" id="top-navbar">
+            <div>Home</div>
+            <div>Melon Encyclopedia</div>
+            <div>Melon Info</div>
         </div>
         <div id="header">
             <h1>UBERMELON</h1>
             <p>Melons as a Service. In Real-Time.</p>
         </div>
-        <div id="image">
+        <div id="logo-image">
             <img src="ubermelonsmall.png"/>
         </div>
         <div id="text">
@@ -85,10 +85,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim ligula, hendrerit maximus orci sed, vehicula vestibulum purus. Phasellus gravida ac libero vitae semper. Phasellus id aliquam tellus, vitae cursus nibh. Nullam neque magna, pharetra non purus vitae, malesuada tempus nunc. Etiam varius accumsan tellus, ut sollicitudin elit egestas at. Nullam malesuada arcu at lorem commodo tristique. Morbi lobortis sapien ex, eget ultricies justo laoreet non. Integer fringilla quis ligula at eleifend. Etiam tortor sem, semper non dui vitae, pretium pharetra odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo orci, volutpat vitae lobortis a, finibus sit amet justo. Ut aliquet ipsum sit amet suscipit fringilla. Cras at metus et tortor convallis ultrices ut et mi. Vestibulum molestie vestibulum feugiat. Quisque bibendum aliquam ligula, in consequat lacus cursus sit amet.</p>
             </div>
         </div>
-        <div id="bottom-navbar">
-            <div class="navbar-links">Home</div>
-            <div class="navbar-links">Melon Encyclopedia</div>
-            <div class="navbar-links">Melon Info</div>
+        <div class="navbar" id="bottom-navbar">
+            <div>Home</div>
+            <div>Melon Encyclopedia</div>
+            <div>Melon Info</div>
         </div>
     </body>
 </html>
