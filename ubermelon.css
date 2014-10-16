@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#top-navbar {
+    background-color: lightgrey;
+    /*height: 30px;*/
+    text-align: right;
+}
+
+/*.navbar-links {*/
+.navbar div {
+    color: green;
+    display: inline-block;
+    margin: 10px;
+}
+
+#header{
+    background-color: lightgrey;
+    height: 150px;
+    text-align: center;
+}
+
+#header h1 {
+    color: #F2875C;
+    font-size: 70px;
+    margin: 0;
+}
+
+
+#logo-image {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-block {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+
+.block-right {
+    margin-left: 50px;
+}
+
+#bottom-navbar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
